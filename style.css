@@ -1,0 +1,95 @@
+body {
+    background-color: #121214;
+    font-family: 'IBM Plex Sans';
+    
+}
+
+
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+header h1 {
+    color: white;
+
+    font-size: 30px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin-left: 400px;
+   
+
+}
+
+ .container p {
+
+    color: gray;
+    font-family:'IBM Plex Sans' ;
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+
+.imagem {
+    width: 160px;
+    border: solid black 2px;
+    border-radius: 8px;
+    height: 160px;
+    
+    
+}
+
+.button {
+    background-color: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: white;
+    width: 206px;
+    height: 50px;
+
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 650px;
+    margin-top: 100px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+   
+}
+
+.user{
+    overflow: hidden;
+    width: 160px;
+   
+}
+
+
